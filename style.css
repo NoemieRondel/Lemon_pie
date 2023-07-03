@@ -1,0 +1,125 @@
+body{
+	text-align: center;
+	font-size: 20px;
+}
+
+h1{font-family: 'Luxurious Roman', cursive;
+font-size: 60px;
+}
+
+.titre_card{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	}
+
+.introduction_card{
+	font-family: 'Luxurious Roman', cursive;
+	font-size: 25px;
+	text-align: center;
+	margin: auto;
+    padding: 20px; 
+    margin-top: 20px;
+}
+
+.recipe_card{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Luxurious Roman', cursive;
+	border-radius: 50px;
+	background-color: rgba(182, 102, 210, 0.15);
+	width: 95% ;
+	margin: 2.5%;
+	text-align: center;
+	padding: 2.5%;
+}
+.temps {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 2.5%;
+}
+ul {
+	list-style: none;
+}
+
+.ingredients_card{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	margin-bottom: 3%;
+
+}
+
+.ingredients_text2{
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 2.5%;
+}
+
+.prepa_text{
+	display: flex;
+	flex-direction: row;
+	text-align: justify;
+}
+
+.astuce_card{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+ h3{
+ 	font-size: 25px;
+ }
+
+ h2{
+ 	font-size: 50px;
+ 	text-align: center;
+
+ }
+
+ h5{font-family: 'Luxurious Roman', cursive;
+
+ }
+
+ #carouselExampleCaptions{
+ 	width: 50%;
+ 	min-width: 50%;
+ 	max-width: 50%;
+ 	height: 50%;
+ 	min-height: 50%;
+ 	max-height: 50%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
+
+ img{
+ 	width: 500px;
+ 	height: 370px;
+ }
+
+ .carousel-caption {
+ 	background-color: rgba(111, 111, 111, 0.3);
+ 	}
+
+ #recipe_img{
+ 	width: 30%;
+ 	height: 30%;
+ }
+ 
+ #titre_img{
+ 	width: 20%;
+ 	height: 20%;
+ }
+
+.nb{
+	margin: 2.5%;
+}
+
+.titre_ing{
+	margin: 2.5%;
+}
